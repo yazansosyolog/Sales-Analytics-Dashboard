@@ -2,6 +2,8 @@
 
 Bu projeye başlarken amacım sadece ham verileri alıp renkli grafiklere dönüştürmek değil; bir şirketin tepe yönetiminin (CEO/COO) stratejik karar alırken yaşadığı **"veri körlüğünü"** ortadan kaldırmaktır. Proje sürecinde ham veriden aksiyon edilebilir içgörüye (actionable insights) giden süreç şu metodoloji ile kurgulanmıştır:
 
+![Panel Görüntüsü](https://github.com/yazansosyolog/sales-analytics-dashboard-/blob/master/Panel-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC)
+
 ### 1. Excel'in Sınırlarını Aşmak ve Veri İlişkilerini Doğru Kurgulamak
 * **Ne Yapmak İstedim?:** Excel üzerinde büyük tablolarda pivot tablolarla boğuşmak, veri büyüdükçe performans kayıplarına ve statik raporlara yol açıyordu. Amacım, veriyi Excel'in kısıtlı hücre mantığından çıkarıp, kurumsal bir veri ambarı mantığıyla birbiriyle konuşan dinamik bir mimariye taşımaktı.
 * **Ne Yaptım?:** Power BI'a aktarılan ham veriler arasında karmaşık formüller (VLOOKUP/XLOOKUP) kullanmak yerine; satışlar, ürünler, coğrafya ve müşteriler arasında **Yıldız Şeması (Star Schema)** ilişkileri kurdum. Böylece raporun saniyeler içinde, binlerce satırda bile performans kaybı yaşamadan filtrelenmesini sağladım.
