@@ -4,6 +4,8 @@ Bu projeye başlarken amacım sadece ham verileri alıp renkli grafiklere dönü
 
 ![Panel Görüntüsü](https://github.com/yazansosyolog/sales-analytics-dashboard-/blob/master/Panel-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC)
 
+> Bu dashboard'un tüm filtrelerini, DAX ölçülerini ve veri modelleme mimarisini dinamik olarak incelemek isterseniz, yukarıda yer alan [superstore_dashboard](superstore_dashboard.pbix) dosyasını bilgisayarınıza indirerek Power BI Desktop üzerinde eksiksiz ve interaktif bir şekilde deneyimleyebilirsiniz.
+
 ### 1. Excel'in Sınırlarını Aşmak ve Veri İlişkilerini Doğru Kurgulamak
 * **Ne Yapmak İstedim?:** Excel üzerinde büyük tablolarda pivot tablolarla boğuşmak, veri büyüdükçe performans kayıplarına ve statik raporlara yol açıyordu. Amacım, veriyi Excel'in kısıtlı hücre mantığından çıkarıp, kurumsal bir veri ambarı mantığıyla birbiriyle konuşan dinamik bir mimariye taşımaktı.
 * **Ne Yaptım?:** Power BI'a aktarılan ham veriler arasında karmaşık formüller (VLOOKUP/XLOOKUP) kullanmak yerine; satışlar, ürünler, coğrafya ve müşteriler arasında **Yıldız Şeması (Star Schema)** ilişkileri kurdum. Böylece raporun saniyeler içinde, binlerce satırda bile performans kaybı yaşamadan filtrelenmesini sağladım.
