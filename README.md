@@ -1,4 +1,4 @@
-## 🧠 Analitik Yaklaşım: Ne Yapmak İstedim, Ne Yaptım?
+## 📊 Global Satış & Lojistik Operasyonları Performans Analizi (Power BI)
 
 Bu projeye başlarken amacım sadece ham verileri alıp renkli grafiklere dönüştürmek değil; bir şirketin tepe yönetiminin (CEO/COO) stratejik karar alırken yaşadığı **"veri körlüğünü"** ortadan kaldırmaktır. Proje sürecinde ham veriden aksiyon edilebilir içgörüye (actionable insights) giden süreç şu metodoloji ile kurgulanmıştır:
 
